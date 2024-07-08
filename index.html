@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Hola<span>Café</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#offerings">Offerings</a></li>
+        <li><a href="#chef">Chef</a></li>
+        <li><a href="#client">Client</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="nav__btn">
+        <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="images/coffee shop.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>There is Always time <span>For Coffee</span>.</h1>
+        <p class="section__description">
+          But it's not just about the coffee – it's about the connections.Hola Coffee is where friends meet, ideas flow, and creativity blossoms. Our cozy corners and communal tables provide the perfect setting for both productive work sessions and relaxed hangouts.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container special__container" id="special">
+      <h2 class="section__header">Our Products</h2>
+      <p class="section__description">
+        Enjoy today and every day with our creamy nondairy beverage options. Smooth, delicious and subtly sweet 
+      </p>
+      <div class="special__grid">
+        <div class="special__card">
+          <img src="images/img 9.jpg" alt="special" />
+          <h4>Espresso</h4>
+          <p>
+            A small but mighty shot of coffee, brewed by forcing hot water through finely-ground beans. Expect a rich, intense flavor with a smooth, velvety crema on top.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$12.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="images/latte.jpg" alt="special" />
+          <h4>Latte</h4>
+          <p>
+            A creamy blend of espresso and steamed milk, topped with a light layer of foam. Smooth and mellow, it's the perfect balance of coffee and comfort in every sip.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$18.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="images/Americano.jpg" alt="special" />
+          <h4>Americano</h4>
+          <p>
+            A smooth and bold coffee made by diluting a shot of espresso with hot water. It offers a rich, robust flavor with a lighter body, perfect for a straightforward.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">$15.50</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container explore__container">
+      <div class="explore__image">
+        <img src="images/img 5.jpg" alt="explore" />
+      </div>
+      <div class="explore__content">
+        <h1 class="section__header">Brewed with Passion, Served with Love</h1>
+        <p class="section__description">
+          Our passion is brewing perfect cups from the finest beans, sourced ethically and locally. Whether you're here to work, relax, or catch up with friends, you'll find a warm welcome and a great coffee waiting for you.
+        </p>
+        <div class="explore__btn">
+          <button class="btn">
+            Explore Story <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-bowl-fill"></i></span>
+        <h4>Order Your Food</h4>
+        <p>
+          Seamlessly place your food orders online with just a few clicks. Enjoy
+          convenience and efficiency as you select from our diverse menu of
+          delectable take-away.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-truck-fill"></i></span>
+        <h4>Pick Your Food</h4>
+        <p>
+          Customize your dining experience by choosing from a tantalizing array
+          of options. For savory, sweet, or in between craving, find the perfect
+          drink to satisfy you.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+        <h4>Enjoy Your Food</h4>
+        <p>
+          Sit back, relax, and savor the flavors as your meticulously prepared
+          meal arrives. Delight in the deliciousness of every bite, knowing that
+          your satisfaction is our top priority.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="chef" id="chef">
+      <img src="assets/topping.png" alt="topping" class="chef__bg" />
+      <div class="section__container chef__container">
+        <div class="chef__image">
+          <img src="images/barista.jpg" alt="chef" />
+        </div>
+        <div class="chef__content">
+          <h2 class="section__header">Our baristas are the heart and soul of our coffee experience</h2>
+          <p class="section__description">
+            Trained in the art of coffee craftsmanship, each of our baristas brings passion and precision to every cup they create. From expertly pulling the perfect shot of espresso to crafting beautifully layered lattes and creating personalized brews, our baristas ensure that every sip is a moment of pure satisfaction. Beyond their skills, our baristas are friendly faces dedicated to making your visit memorable and your coffee experience exceptional. Join us and meet the talented individuals behind your favorite coffee creations at Hola cafe
+          </p>
+          <ul class="chef__list">
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Savour culinary brilliance from master chefs worldwide.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Experience innovative creations with attention to detail.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Enjoy dishes crafted with an unwavering passion for perfection.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What Our Customers Are Saying</h2>
+      <p class="section__description">
+        Discover firsthand experiences and testimonials from our valued patrons.
+        Explore the feedback and reviews that showcase our commitment to
+        quality, service, and customer satisfaction.
+      </p>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  I absolutely loved my visit to hola coffee! The latte I had was perfectly crafted—smooth and rich with just the right amount of foam. The atmosphere was cozy and inviting, and the barista was friendly and knowledgeable.
+                </p>
+                <img src="images/client.jpg" alt="client" />
+                <h4>David Lee</h4>
+                <h5>Business Executive</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Best cappuccino in town—perfect balance of espresso and foam.
+                </p>
+                <img src="images/client 3.jpg" alt="client" />
+                <h4>Emily Johnson</h4>
+                <h5>Food Blogger</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Excellent customer service and delicious espresso. Will be back soon!
+                </p>
+                <img src="images/client 2.jpg" alt="client" />
+                <h4>Michael Thompson</h4>
+                <h5>Event Planner</h5>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#">Hola<span>Cafe</span></a>
+          </div>
+          <p class="section__description">
+            Welcome to Hola Cafe, where every cup is crafted with care and every visit feels like coming home. Enjoy exceptional coffee in a cozy, community-focused atmosphere. Discover why Hola Cafe is your perfect spot to relax, recharge, and connect.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">Bakery</a></li>
+            <li><a href="#">Catering Options</a></li>
+            <li><a href="#">Seasonal Offerings</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Nutrition Information</a></li>
+            <li><a href="#">Allergen Information</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
